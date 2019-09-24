@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>acme-flex-box</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
+
+
+  </head>
+  <body>
+
+        <div class='topNav'>
+                <div class = "navBox">Acme Layout</div>
+        
+                <div class = "navBox">Users</div>
+                <div class = "navBox">Department</div>
+                <div class = "navBox">Contact</div>
+            </div>
+
+
+
+    <h1>Users</h1>
+
+    <div class="createUser">
+        <div>
+        <h1>Create A User</h1>
+        <form class="form">
+            <p>First Name: <input type="text" placeholder="Jane"></p> <br>
+            <p>Last Name: <input type="text" placeholder="Doe"></p><br>
+            <p>Department: <select type="text" placeholder="Jane"></p><br>
+                <option value="" selected disabled hidden>--None--</option>
+                <option>a</option>
+                <option>b</option>
+                <option>c</option>
+                <option>d</option>
+            </select>
+        </form>
+        <button class="button" id="clear" type="button">Clear</button>
+        <button class="button" id="save" type="button">Save</button>
+    </div>
+    </div>
+
+
+    <div class="outerbox">
+    <div class = 'multiBox'>
+        <div class="bigger">User A</div>
+        <div class="bigger">User A</div>
+        <div class="bigger">User A</div>
+        <div class="smaller">User A</div>
+        <div class="smaller">User A</div>
+        <div class="smaller">User A</div>
+        <div class="bigger">User A</div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

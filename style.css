@@ -1,0 +1,91 @@
+html {
+    font-family: sans-serif;
+}
+
+
+.topNav{
+    display:flex;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    background-color: dodgerblue;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0; 
+    
+}
+.topNav > div {
+    
+    background-color: dodgerblue; 
+     
+    
+}
+
+.navBox{
+    margin: 0px;
+
+}
+@media (max-width:400px){
+    .topNav{
+        flex-direction: column;
+    }
+
+}
+.createUser {
+    justify-content: center;
+    
+    display:flex;
+    
+}
+.createUser > div {
+    border: solid 1px black;
+    padding: 5px;
+    
+}
+
+.form {
+    padding: 20px;
+}
+
+.button {
+    position: relative;
+    left:30%;
+}
+
+#save {
+    background-color: dodgerblue;
+    color:white;
+}
+.outerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.multiBox{
+    border: solid 1px black;
+    display: flex;
+    max-width: 950px;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+}
+.multiBox > div {
+    border: solid 1px green;
+    border-radius: 10%;
+    width:250px;
+    margin: 5px;
+    text-align: center;
+}
+.bigger {
+    height: 70px;
+}
+.smaller {
+    height: 50px;
+}
+
+@media (max-width: 800px){
+    .multiBox{
+        justify-content: space-evenly;
+    }
+}
